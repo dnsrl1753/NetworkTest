@@ -1,0 +1,50 @@
+\documentclass[11pt]{article}
+\begin{document}
+
+
+\begin{flushleft}
+This text is\\ left-aligned.
+\LaTeX{} is not trying to make
+each line the same length.
+\end{flushleft}
+
+
+\begin{flushright}
+This text is right-\\aligned.
+\LaTeX{} is not trying to make
+each line the same length.
+\end{flushright}
+
+
+\begin{center}
+At the centre\\of the earth
+\end{center}
+
+
+A typographical rule of thumb
+for the line length is:
+\begin{quote}
+On average, no line should
+be longer than 66 characters.
+\end{quote}
+This is why \LaTeX{} pages have
+such large borders by default and
+also why multicolumn print is
+used in newspapers.
+
+
+I know only one English poem by
+heart. It is about Humpty Dumpty.
+\begin{flushleft}
+\begin{verse}
+Humpty Dumpty sat on a wall:\\
+Humpty Dumpty had a great fall.\\
+All the King¡¯s horses and all
+the King¡¯s men\\
+Couldn¡¯t put Humpty together
+again.
+\end{verse}
+\end{flushleft}
+
+
+\end{document}
